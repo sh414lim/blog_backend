@@ -61,6 +61,8 @@ export const register=async ctx =>{
 
 export const login=async ctx=>{
     //로그인
+    console.log("login");
+    console.log(login);
     const {username,password}=ctx.request.body;
 
     //username password 가 없으면 에러처리
